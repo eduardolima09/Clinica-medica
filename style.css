@@ -1,0 +1,257 @@
+/*
+    Paleta de cores:
+    #C194F9 - Padrão
+    #752fbb - Lilas
+    #0a1a3b - Preto
+
+    #894df8
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+a, h1, h2, p {
+    text-decoration: none;
+    color: #0a1a3b;
+}
+
+/* Menu */
+#menu-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 10px #752fbb;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.menu { 
+    margin: 0 70px;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+.menu li a:hover {
+    border-bottom: solid #752fbb;
+}
+
+/* Cabeçalho */
+.texto-cabecalho {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    padding: 20px;
+    
+    font-size: 25px;
+}
+.quadro-texto {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    padding: 80px 30%;
+    border-radius: 20px;
+    
+    background-color: #fff ;
+    opacity: 0.7;
+
+}
+
+
+#cabecalho img {
+    width: 100%;
+    border-radius: 50% 100% 0 0;
+}
+
+/* INFORMAÇÕES */
+#informacoes {
+    display: flex;
+    margin: -150px 80px 0 80px;
+}
+
+.item-info {  
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    background-color: #752fbb;
+    margin: 30px; 
+    padding: 50px;
+    border-radius: 0 25%;
+
+
+    line-height: 20px;
+    text-align: center;
+}
+
+.item-info img {
+    margin: 0 0 30px;
+}
+.item-info p {
+    margin: 30px 0 0;
+}
+#informacoes .item-info p, h2 {
+    color: #fff;
+}
+
+/* MÉDICOS */
+#medicos {
+    margin: 80px;
+}
+
+.medicos-intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.medicos {
+    display: flex;
+    
+}
+.medico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+.medico img { 
+    margin-bottom: 30px;
+    width: 200px;
+    border-radius: 50%;
+
+    transition: transform 0.5s ease;
+}
+.medico img:hover {
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+    
+}
+
+.medico p {
+    padding: 20px;
+}
+.medico p, h2 {
+    color: #0a1a3b;;
+}
+
+/* DETALHES */
+#detalhes {
+    background: #C194F9;
+    display: flex;
+
+    padding: 40px;
+}
+
+#detalhes img {
+    width: 300px;
+
+    padding: 0 20px 0 20px;
+
+    transition: transform 0.5s ease;
+}
+#detalhes img:hover {
+    transform: scale(1.2);
+}
+
+.detalhe {
+    display: flex;
+
+    padding: 35px;
+}
+.detalhe-01 {
+    border-right: dashed black;
+}
+
+.detalhe a:hover {
+    color: #752fbb;
+    text-decoration: underline;
+}
+
+/*IMAGENS*/
+#imgs {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 0 50px;
+}
+
+.img-vantagens {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+
+    margin: 20px;
+}
+
+#imgs img{
+    width: 280px;
+
+    margin: 70px 0 20px 0;
+    transition: transform 0.5s ease;
+}
+#imgs img:hover {
+    transform: scale(1.2);
+}
+
+/* RODAPÉ */
+#rodape {
+    display: flex;
+    justify-content: center;
+
+    background: #0a1a3b;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+
+    border-top: solid #752fbb 5px;
+}
+
+#rodape .rodape {
+    padding: 50px;
+}
+
+.rodape h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+#rodape p {
+    color: #fff;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+}
+.cont img {
+    margin-right: 10px;
+}
+
+.form input {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+.form button {
+    margin-top: 5px;
+    padding: 5px;
+}

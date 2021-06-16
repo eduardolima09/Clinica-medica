@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+a, h1, p {
+    text-decoration: none;
+    color: #0a1a3b;
+}
+
+/* Menu */
+#menu-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 10px #752fbb;
+}
+
+.menu img {
+    width: 200px;
+}
+
+.menu { 
+    margin: 0 70px;
+}
+
+.menu li {
+    display: inline;
+    margin-left: 20px;
+    align-items: center;
+    
+}
+.menu li a:hover {
+    border-bottom: solid #752fbb;
+}
+
+/* Cabeçalho */
+.texto-cabecalho {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    padding: 20px;
+    
+    font-size: 30px;
+}
+.quadro-texto {
+    position: absolute;
+    top: 250px;
+    left: 40%;
+    padding: 50px 355px;
+    border-radius: 20px;
+    
+    background-color: #fff ;
+    opacity: 0.7;
+
+}
+
+
+#cabecalho img {
+    width: 100%;
+    border-radius: 50% 100% 0 0;
+}
+
+/* QUEM SOMOS */ 
+.quem-somos {
+    padding: 0 100px 100px;
+
+    text-align: justify;
+    color: #0a1a3b;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.quem-somos h1 {
+    margin: 60px 100px 50px;
+    border-bottom: solid #0a1a3b;
+    line-height: 50px;
+
+    text-align: center;
+}
+
+
+/* RODAPÉ */
+#rodape {
+    display: flex;
+    justify-content: center;
+
+    background: #0a1a3b;
+    color: #fff;
+    font-size: 20px;
+    line-height: 25px;
+
+    border-top: solid #752fbb 5px;
+}
+
+#rodape .rodape {
+    padding: 50px;
+}
+
+.rodape h2 {
+    margin-bottom: 20px;
+}
+#rodape p {
+    color: #fff;
+}
+
+.contato {
+    display: flex;
+    flex-direction: column;
+}
+.cont {
+    display: flex;
+    flex-direction: row;
+
+    margin: 5px;
+}
+.cont img {
+    margin-right: 10px;
+}
+
+.form input {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 10px;
+}
+.form button {
+    margin-top: 5px;
+    padding: 5px;
+}
